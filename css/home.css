@@ -1,0 +1,198 @@
+/* CSS Document */
+.H_more a{
+	color:#03F;
+	font-size:12px;}
+.H_more a:hover{
+	color:#F36;}
+img a{border:none;}
+h4{ margin-top:0;
+	height:30px;
+	width:100%;
+	background:#999999;
+	color:#FFF;
+	line-height:30px;
+	text-align:center;
+	}
+
+#main{
+	margin:10px auto;
+	width:960px;
+}
+
+
+.sidebar{
+	width:200px;
+	float:left;
+}
+
+
+.login{
+	height:239px;
+	width:194px;
+	border:1px solid #ccc;}
+
+.login .tab{
+	border-bottom:1px #ccc solid;
+} 
+.login .tab li {
+	float:left;
+	width:75px;
+	padding:7px 10px;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+}
+.login .tab li:nth-of-type(1) {
+	border-right:1px #ccc solid;
+}
+.login label { 
+	font-size:14px;
+	display: inline-block;
+	width: 50px;
+	
+ }
+.login input { width: 120px;}
+.login p {
+	margin-top: 20px;
+	font-size: 12px;
+	text-align: center;
+}
+.login button {
+	margin:20px auto auto 80px ;
+}
+.manageLogin {
+   display: none;
+}
+
+
+
+.classIntro{
+	margin-top:20px;
+	border:1px solid #CCC;
+}
+.classIntro p{
+	text-indent:2em;
+	padding: 10px;
+	line-height: 20px;
+	color:#333;
+	height: 420px;
+	overflow: hidden;
+	width:175px;
+	font-size:14px;
+}
+
+.classIntro a {
+	margin:10px;
+	color: blue;
+}
+
+.content {
+	position: relative;
+	float: left;
+	width: 730px;
+	margin-left: 10px;
+}
+.content .search {
+ 	position: absolute;
+ 	right: 5px;
+}
+.search .srchSubmit{
+	margin-left: 5px;
+	float: right;
+	height:30px;
+	width: 30px;
+	background:url(../image/search.png) no-repeat -15px -15px;
+	cursor:pointer;
+}
+
+.classNews{
+	width: 95%;
+}
+.classNews h2{
+	text-indent: -1000px;
+	position: relative;
+	height: 40px;
+	width: 190px;
+	background:url(../Image/H_newsC.png) no-repeat ;
+}
+.classNews sup {
+	position: absolute;
+	text-indent: 0;
+	top:0;
+	right: 0;
+	color: red;
+	font-size: 14px;
+}
+
+.newsUl{
+   padding-left:30px;
+   width:100%;
+   border:1px solid #CCC;
+}
+.newsUl li{
+	line-height:35px;
+	list-style:square;
+     color:#06F;
+	 width:600px;}	
+.newsUl a{
+	font-size:12px;
+	color:#333;
+}
+.newsUl a:hover{
+	font-size:12px;
+	color:#66C;
+}
+.newsUl li span{
+	color:#333;
+	font-size:12px;
+	float:right;}
+
+	#H_newsHL {
+	float:left;
+	width:130px;
+	position:relative;}
+
+
+.classAlbum {
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+.classAlbum a {
+	display: block;
+	clear: left;
+
+}
+.albumUl li{
+	float:left;
+	width:166px;
+}
+
+.message{
+	position:relative;
+	height:200px;
+	width: 100%;
+	overflow:hidden;
+	border:1px solid #CCC;
+	margin-top: 20px;
+
+}
+
+.message h2{
+	float:left;
+	width:100px;}
+.messageUl{
+	width:600px;
+	font-size: 15px;
+}
+.message li{
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-bottom:1px #F96 solid;}
+.message li p {
+	margin-top: 10px;
+}
+.who {
+	font-size: 12px;
+}
+	
+	
